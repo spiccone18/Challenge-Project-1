@@ -1,0 +1,228 @@
+/* Navigation Style */
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    flex: 1 1 200px; 
+    
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li {
+    margin: 0 15px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-items li a:hover {
+    color: green;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #32CD32;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.nav-button a:hover {
+    background-color: #06600e;
+}
+
+/* Demo Section */
+
+.demo-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f0f0f0;
+}
+
+.demo-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+.demo-section .bold {
+    font-weight: 700;
+    color: #32CD32;
+}
+
+.demo-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+#demo-button, #learn-button {
+    background-color:#32CD32;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#demo-button a, #learn-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#demo-button:hover, #learn-button:hover {
+    background-color:#06600e;
+}
+
+.comp-img {
+    max-width: 100%;
+    height: auto;
+  
+}
+
+/* Benefits Section */ 
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.features-section div {
+    text-align: center;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.features-section img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.features-section h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.features-section p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer Section */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-section div {
+    max-width: 200px;
+    flex: 1 1 200px
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-section li {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.footer-section li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.footer-section li a:hover {
+    color: #0056b3;
+}
+
+.join {
+    text-align: center;
+}
+
+.join span {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.career-button {
+    background-color:#32CD32;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.career-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.career-button:hover {
+    background-color: #06600e;
+}
